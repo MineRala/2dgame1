@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8181748094874927061}
   m_Layer: 0
   m_Name: ColumnSprite
-  m_TagString: Untagged
+  m_TagString: column
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

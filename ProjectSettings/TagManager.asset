@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Platform
   - Destruction point
+  - column
   layers:
   - Default
   - TransparentFX
