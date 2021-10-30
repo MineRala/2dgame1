@@ -40,8 +40,9 @@ public class ObjectPool : MonoBehaviour
         {
             return null;
         }
-        GameObject obj = pools[objectType].pooledObjects.Dequeue();
+      
 
+        GameObject obj = pools[objectType].pooledObjects.Dequeue();
         obj.transform.position = position;
         obj.SetActive(true);
         pools[objectType].pooledObjects.Enqueue(obj);
