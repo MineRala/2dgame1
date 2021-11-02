@@ -13,6 +13,7 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame() {
         SceneManager.LoadScene("SampleScene");
+        Debug.Log("Game Start");
     }
 
 }
